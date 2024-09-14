@@ -1,7 +1,7 @@
   // src/components/AboutUs.js
   import React, { useEffect } from 'react';
   import './AboutUs.css';
-  import lyna from '../../assets/lyna.png';
+  import lyna from '../../assets/reading.jpg';
   import { useTranslation } from 'react-i18next'; // Import useTranslation
 
   const AboutUs = () => {

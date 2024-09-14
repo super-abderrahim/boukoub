@@ -15,10 +15,12 @@ import ins4 from '../../assets/ins4.jpg';
 import decor from '../../assets/decor.jpg';
 import ligend from '../../assets/Ligend0.png';
 import express from '../../assets/express.jpg';
+import almouwahidin from '../../assets/mowahid.jpg';
 import toread from '../../assets/room to read.png';
 import send from '../../assets/send-collaboration.png';
 import instagram_icon from '../../assets/instagram.png';
 import { useTranslation } from 'react-i18next';
+
 const Home = () => {
   const { t } = useTranslation();
 const [monthlyBooks, setMonthlyBooks] = useState([]);
@@ -94,6 +96,9 @@ const [monthlyBooks, setMonthlyBooks] = useState([]);
                 <a href="https://www.instagram.com/zr__express?igsh=MWt2dTR2dXpwZmtvaQ%3D%3D" target="_blank" rel="noopener noreferrer">
                   <img src={express} alt={t('joinUs.express')} />
                 </a>
+                <a href="https://www.instagram.com/almouwahidin?igsh=MXE1ZHRxZWN3N2szYg%3D%3D" target="_blank" rel="noopener noreferrer">
+                  <img src={almouwahidin} alt={t('joinUs.express')} />
+                </a>
               </div>
               <div className="collaboration-logos-wrapper">
                 <a href="https://www.instagram.com/decorilliy/" target="_blank" rel="noopener noreferrer">
@@ -107,6 +112,9 @@ const [monthlyBooks, setMonthlyBooks] = useState([]);
                 </a>
                 <a href="https://www.instagram.com/zr__express?igsh=MWt2dTR2dXpwZmtvaQ%3D%3D" target="_blank" rel="noopener noreferrer">
                   <img src={express} alt={t('joinUs.express')} />
+                </a>
+                <a href="https://www.instagram.com/almouwahidin?igsh=MXE1ZHRxZWN3N2szYg%3D%3D" target="_blank" rel="noopener noreferrer">
+                  <img src={almouwahidin} alt={t('joinUs.express')} />
                 </a>
               </div>
             </div>

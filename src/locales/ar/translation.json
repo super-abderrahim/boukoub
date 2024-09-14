@@ -1,0 +1,132 @@
+{
+    "home": {
+      "welcomeMessage": "مرحبا بكم في",
+      "bookoub": "Bookoub",
+      "description": "قرأتك الرائعة التالية على بُعد نقرة واحدة. من العناوين الرائجة إلى الكنوز المخفية، لدينا الكتب التي ستعشقها. ابدأ في الاستكشاف وابحث عن كتابك المفضل التالي اليوم.",
+      "shopNow": " المتجر",
+      "heroImageAlt": "عرض الكتب"
+    },
+    "joinUs": {
+      "title": "انضم إلى مجتمعنا",
+      "collaboration": "تعاون",
+      "decorily": "ديكوريلي",
+      "roomToRead": "غرفة للقراءة",
+      "legend": "أسطورة",
+      "express": "إكسبريس",
+      "collaborate": "تعاون",
+      "sendIcon": "أيقونة الإرسال",
+      "instagramGroup": "مجموعة إنستاجرام",
+      "join": "انضم",
+      "instagramIcon": "أيقونة إنستاجرام"
+    },
+    "booksOfTheMonth": {
+      "title": "كتب الشهر"
+    },
+    "reviews": {
+      "imageAlt": "تقييمات",
+      "title": "تقييمات",
+      "ins1": {
+        "alt": "Review Image 1",
+        "text": "merci beaucoup pour le professionnalisme ta3kom , j’ai reçu mes livres en meme pas 24h , meilleure vendeuse en ligne tlait biha had 3 dernière années tres sérieuse fel khadma et respectueuse bazef , et les prix ta3kom mlah je suis tres tres satisfait mea la réduction et la livraison gratuite et surtout le service bravo 10/10 vous m’avez meme aider à choisir de très bon titres, bon courage et bonne continuation et je vous recontacterais pour d’autre livres inchalah"
+      },
+      "ins2": {
+        "alt": "Review Image 2",
+        "text": "Hey.. I couldn’t be happier and more grateful! The books are amazing, the quality! The prices ! The delivery service so understanding though it took me some time to answer it.. The gift Gil with the note on it... You definitely won a faithful client! The next list will be longer May God bless you. "   },
+      "ins3": {
+        "alt": "Review Image 3",
+        "text": "Hello there! I hope that u doing well.…so where do I start ' @first of all thanks a lottt for your service without forgetting Tact in speech , secondly the book quality is adorable Literally I meant it I don’t know u but keep going in this business finally I’m over the moon and break a leg ..once again thank very much"
+      }
+    },
+    "bookPage": {
+      "loading": "جاري التحميل...",
+      "descriptionUnavailable": "الوصف غير متوفر لهذا الكتاب.",
+      "category": "فئة",
+      "price": "سعر",
+      "total": "إجمالي",
+      "addToCart": "أضف إلى السلة",
+      "buyNow": "شراء "
+    },
+    "contactPage": {
+      "contactUs": "اتصل ",
+      "Us": " بنا",
+      "message": "نحب أن نسمع منك! سواء كان لديك سؤال أو ملاحظات أو تحتاج إلى مساعدة، لا تتردد في التواصل معنا.",
+      "info": "معلومات",
+      "email": "البريد الإلكتروني",
+      "emaillabel": "البريد ",
+      "Email": "boukoubstore@gmail.com",
+      "link": "روابط التواصل الاجتماعي",
+      "sendMessage": "أرسل رسالة",
+      "name": "اسم",
+      "firstName": "الاسم الأول",
+      "lastName": "الاسم الأخير",
+      "emailPlaceholder": "البريد الإلكتروني",
+      "subject": "الموضوع",
+      "subjectlabel": "  موضوع", 
+      "messagePlaceholder": "الرسالة",
+      "send": "إرسال",
+      "sentSuccessfully": "تم الإرسال بنجاح!!"
+    },
+    "aboutUs": {
+      "welcomeMessage": "مرحبا بكم في متجر بوكوب، حيث يلتقي حب الكتب بسهولة التسوق عبر الإنترنت! أسسته شابة جزائرية شغوفة بالكتب",
+      "meetLyna": "تعرف على لينا",
+      "Founder": " المؤسِّسة",
+      "lynaDescription": "لينا، شابة جزائرية تبلغ من العمر 21 عامًا ولها شغف طويل الأمد بالكتب، قررت في عام 2023 أن تحول حبها للأدب إلى عمل تجاري. بدأت متجر بوكوب من الصفر، وهدفت إلى جعل القراءة أكثر سهولة للجميع في الجزائر. ما بدأ كمشروع صغير قد نما الآن إلى مكتبة إلكترونية مزدهرة، تربط القراء في جميع أنحاء البلاد بعناوينهم المفضلة. بعزمها وروحها الريادية، بنت لينا مجتمعًا يجمع بين الراحة والجودة والشغف المشترك بالكتب.",
+      "whyBookoub": "لماذا ",
+      "bookoub": "Bookoub ؟",
+      "whyBookoubDescription": "سواء كنت تبحث عن أحدث الكتب الأكثر مبيعًا أو أفضل كتب التنمية الذاتية، فإن منصتنا سهلة الاستخدام تجعل من السهل استكشاف واكتشاف وشراء قراءتك القادمة. نحن نعتز بخدمة العملاء الاستثنائية وشغفنا الحقيقي بالكتب. ما يميزنا هو التزامنا بجعل كل عميل يشعر بالتقدير، وهدفنا هو ربط الجزائريين بعالم الأدب براحة واهتمام."
+    },
+    "shopPage": {
+        "shopByCategory": "تسوق حسب الفئة",
+        "all": "الكل",
+        "type": "النوع",
+        "language": "اللغة",
+        "price": "السعر",
+        "priceRange": "نطاق السعر",
+        "searchPlaceholder": "ابحث ...",
+        "search": "بحث",
+        "filter": "تصفية",
+        "breadcrumb": "فئة > نوع",
+        "addToCart": "السلة",
+        "pagePrevious": "السابق",
+        "pageNext": "التالي",
+        "outOfStock": "نفدت الكمية"
+      },
+      "footer": {
+        "companyName": "boukoub",
+        "home": "الرئيسية",
+        "shop": "المتجر",
+        "aboutUs": "من نحن",
+        "contact": "اتصل بنا",
+        "emailCopied": "تم النسخ!",
+        "copyright": "© 2024 Bookoub.store - جميع الحقوق محفوظة"
+      },
+      "cart": {
+      "List": "قائمة منتجاتك",
+      "items": "العناصر",
+      "Shipping": "الشحن",
+      "Subtotal": "المجموع الفرعي",
+      "Total": "الإجمالي",
+      "DeliveryInformation": "معلومات التسليم",
+      "FamilyName": "اسم العائلة",
+      "FirstName": "الاسم الأول",
+      "PhoneNumber": "رقم الهاتف",
+      "DeliveryToHome": "التوصيل إلى المنزل",
+      "DeliveryToZR": "التوصيل إلى مكتب ZR Express",
+      "Wilaya": "الولاية",
+      "City": "المدينة",
+      "Address": "العنوان",
+      "BUY": "شراء",
+      "SENTSUCCESSFULLY!!": "تم الإرسال بنجاح!!",
+      "BacktoShop": "العودة إلى المتجر",
+      "OrderSummary": "ملخص الطلب",
+      "Enterallinfos": "أدخل جميع المعلومات ولغات الكتب!!",
+      "Yourcartisempty": "سلة التسوق فارغة ..."
+         }, 
+         
+        "navbar": {
+        "home": "الصفحة الرئيسية",
+        "shop": "المتجر",
+        "aboutUs": "من نحن",
+        "contact": "اتصل بنا"
+      }
+  }

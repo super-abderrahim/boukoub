@@ -1,0 +1,131 @@
+{
+  "home": {
+    "welcomeMessage": "Welcome to",
+    "bookoub": "Bookoub",
+    "description": "Your next great read is just a click away. From trending titles to hidden gems, we’ve got the books you’ll love. Start exploring and find your next favorite today.",
+    "shopNow": "Shop Now",
+    "heroImageAlt": "Books Display"
+  },
+  "joinUs": {
+    "title": "Join Our Community",
+    "collaboration": "Collaboration",
+    "decorily": "Decorily",
+    "roomToRead": "Room to Read",
+    "legend": "Legend",
+    "express": "Express",
+    "collaborate": "Collaborate",
+    "sendIcon": "Send Icon",
+    "instagramGroup": "Instagram Group",
+    "join": "Join",
+    "instagramIcon": "Instagram Icon"
+  },
+  "booksOfTheMonth": {
+    "title": "Books Of The Month"
+  },
+  "reviews": {
+    "imageAlt": "Reviews",
+    "title": "REVIEWS",
+    "ins1": {
+      "alt": "Review Image 1",
+      "text": "merci beaucoup pour le professionnalisme ta3kom , j’ai reçu mes livres en meme pas 24h , meilleure vendeuse en ligne tlait biha had 3 dernière années tres sérieuse fel khadma et respectueuse bazef , et les prix ta3kom mlah je suis tres tres satisfait mea la réduction et la livraison gratuite et surtout le service bravo 10/10 vous m’avez meme aider à choisir de très bon titres, bon courage et bonne continuation et je vous recontacterais pour d’autre livres inchalah"
+    },
+    "ins2": {
+      "alt": "Review Image 2",
+      "text": "Hey.. I couldn’t be happier and more grateful! The books are amazing, the quality! The prices ! The delivery service so understanding though it took me some time to answer it.. The gift Gil with the note on it... You definitely won a faithful client! The next list will be longer May God bless you. "   },
+    "ins3": {
+      "alt": "Review Image 3",
+      "text": "Hello there! I hope that u doing well.…so where do I start ' @first of all thanks a lottt for your service without forgetting Tact in speech , secondly the book quality is adorable Literally I meant it I don’t know u but keep going in this business finally I’m over the moon and break a leg ..once again thank very much"
+    }
+  },
+  "bookPage": {
+    "loading": "Loading...",
+    "descriptionUnavailable": "Description unavailable for this book.",
+    "category": "Category",
+    "price": "Price",
+    "total": "Total",
+    "addToCart": "ADD TO CART",
+    "buyNow": "BUY NOW"
+  },
+  "contactPage": {
+    "contactUs": "Contact",
+    "Us": "Us",
+    "message": "We’d love to hear from you! Whether you have a question, feedback, or need assistance, feel free to reach out to us.",
+    "info": "INFOS",
+    "email": "EMAIL",
+    "emaillabel": "Email ...",
+    "Email": "boukoubstore@gmail.com",
+    "link": "LINKS",
+    "sendMessage": "SEND A MESSAGE",
+    "name": "NAME",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "emailPlaceholder": "EMAIL",
+    "subject": "SUBJECT",
+    "subjectlabel": "Subject ...",
+    "messagePlaceholder": "Message ...",
+    "send": "SEND",
+    "sentSuccessfully": "Sent successfully!!"
+  },
+  "aboutUs": {
+    "welcomeMessage": "Welcome to Bookoub Store, where the love for books meets the ease of online shopping! Founded by a passionate young Algerian woman",
+    "meetLyna": "Meet Lyna",
+    "Founder": " the Founder",
+    "lynaDescription": "Lyna, a 21-year-old Algerian woman with a lifelong passion for books,decided in 2023 to turn her love for literature into a business. Starting Bookoub Store from the ground up, she aimed to make reading more accessible to everyone in Algeria. What began as a small venture has now blossomed into a thriving online bookstore, connecting readers across the country with their favorite titles. With her determination and entrepreneurial spirit, Lyna has built a community that brings together convenience, quality, and a shared passion for books.",
+    "whyBookoub": "Why ",
+    "bookoub": "Bookoub ? ",
+    "whyBookoubDescription": "  Whether you're searching for the latest bestseller or best self development books , our user-friendly platform makes it easy to explore, discover, and purchase your next great read. We pride ourselves on exceptional customer service, and a genuine passion for books. What sets us apart is our commitment to making every customer feel valued, and our goal is to connect Algerians to the world of literature with convenience and care"
+  },
+  "shopPage": {
+    "shopByCategory": "Shop By Category",
+    "all": "All",
+    "type": "Type",
+    "language": "Language",
+    "price": "Price",
+    "priceRange": "Price Range",
+    "searchPlaceholder": "Search ...",
+    "search": "Search",
+    "filter": "Filter",
+    "breadcrumb": "Category > Type",
+    "addToCart": "ADD",
+    "pagePrevious": "Previous",
+    "pageNext": "Next",
+    "outOfStock": "OUT OF STOCK"
+  },
+  "footer": {
+    "companyName": "bookoub",
+    "home": "Home",
+    "shop": "Shop",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "emailCopied": "Copied!",
+    "copyright": "© 2024 Bookoub.store - All rights reserved"
+  },
+  "cart": {
+    "List": "Your Product List",
+    "items": "items",
+    "Shipping": "Shipping",
+    "Subtotal": "Subtotal",
+    "Total": "Total",
+    "DeliveryInformation": "Delivery Information",
+    "FamilyName": "Family Name",
+    "FirstName": "First Name",
+    "PhoneNumber": "Phone Number",
+    "DeliveryToHome": "Delivery To Home",
+    "DeliveryToZR": "Delivery To ZR Express Office",
+    "Wilaya": "Wilaya",
+    "City": "City",
+    "Address": "Address",
+    "BUY": "BUY",
+    "SENTSUCCESSFULLY!!": "SENT SUCCESSFULLY!!",
+    "Enterallinfos": "Enter all infos and book languages !!",
+    "BacktoShop":"Back to Shop",
+    "OrderSummary":"Order Summary",
+    "Yourcartisempty": "Your cart is empty..."
+  },
+  "navbar": {
+    "home": "Home",
+    "shop": "Shop",
+    "aboutUs": "About Us",
+    "contact": "Contact"
+  }
+}

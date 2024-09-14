@@ -1,13 +1,169 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* src/styles/global.css */
+
+
+html[lang="ar"] {
+  direction: rtl;
+  /* font-family: "Kufam", sans-serif; */
+  font-family: "Cairo", sans-serif;
 }
+html:not([lang="ar"]) {
+  font-family: "Inter", sans-serif; /* Set the default font family for other languages */
+}
+
+html.rtl .book-image {
+ 
+  right: 80%;
+
+}
+html.rtl .hero-content {
+
+  padding-right: 40px;
+}
+
+
+  html.rtl .cart-item-details {
+      gap: 20px;
+      margin: 0px;
+      margin-right: 20px;
+  }
+  
+  html.rtl .btn-back-to-shop img {
+    width: 20px;
+    height: 20px;
+    transform: rotate(180deg);
+}
+
+html.rtl  .btn-back-to-shop {
+      bottom: 10px;
+      left: 0px;
+      width: 80%;
+      font-size: 16px;
+      right: 10px;
+  }
+  html.rtl .sidebar h4 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+html.rtl .sidebar ul li {
+  margin-bottom: 3px;
+}
+
+html.rtl .close-button {
+display: none;
+}
+html.rtl .main-content .search-bar input {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+html.rtl .search-container button img {
+
+  margin-left: 10px;
+}
+
+@keyframes slideright {
+  0% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+}
+  100% {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+}
+}
+
+html.rtl .collaboration-logos-wrapper {
+  display: inline-block;
+  animation: slideright 5s linear infinite;
+  -webkit-animation: slideright 5s linear infinite;
+  gap: 25px;
+}
+html.rtl .books-of-the-month-section h2 span {
+  margin-left: 20px;
+}
+
+html.rtl .contact-form button  {
+  font-size: 16px;
+}
+@media (max-width: 768px) {
+  html.rtl .navbar {
+      flex-direction: row;
+      height: auto;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 0px 25px;
+  }
+
+  html.rtl .sidebar h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  html.rtl .product-card .price-container .add-button {
+    padding: 5px;
+    font-size: 16px;
+}
+html.rtl .form-group input, .form-group textarea {
+  font-size: 16px;
+}
+  html.rtl .swiper-slide {
+    margin-left: 5px !important;
+}
+  html.rtl .hero-content {
+
+    padding-right: 5px;
+  }
+  
+  html.rtl .info-inputs input, select {
+        min-height: 40px;
+        padding-right: 16px;
+        font-size: 16px;
+    }
+    html.rtl  .form-group input[type="text"] {
+      width: 100%;
+      font-size: 16px;
+      padding-right: 4px;
+    }
+
+
+    html.rtl .scroll-animation {
+      opacity: 0;
+      filter: blur(5%);
+      transition: opacity 1s, filter 1s, transform 1s;
+      -webkit-filter: blur(5%);
+    }
+  
+    html.rtl .animate {
+      opacity: 1;
+      filter: blur(0%);
+      transition: opacity 1s, filter 1s, transform 1s;
+    }
+  
+}
+html.rtl .form-group input, .form-group textarea {
+
+  padding-right: 20px;
+  font-size: 16px;
+}
+
+  html.rtl .info-inputs input, select {
+        min-height: 40px;
+        padding-right: 16px;
+        font-size: 16px;
+    }
+     html.rtl  .form-group input[type="text"] {
+      width: 100%;
+      font-size: 16px;
+      padding-right: 4px;
+    }

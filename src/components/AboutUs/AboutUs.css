@@ -1,0 +1,161 @@
+.about-us-section {
+    padding: 20px;
+    text-align: center;
+
+  }
+  
+  .about-us-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden; /* Prevent horizontal scroll */
+  }
+  
+  .image-intro{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .about-us-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .highlight {
+    color: #e63946;
+  }
+  
+  .about-us-intro {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    width: 50%;
+  }
+  
+  .about-us-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  
+  .about-lyna,
+  .why-bookoub {
+    width: 100%;
+    padding: 50px;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 0px;
+  }
+  
+
+  .why-bookoub h2 {
+    font-size: 1.8rem;
+    text-align: start;
+    margin-left: 30px;
+  }
+  .meet-lyna {
+    font-size: 1.8rem;
+    text-align: start;
+    margin-left: 30px;
+  }
+  
+  .lyna-description,
+  .why-bookoub-description {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+  
+  .founder-image  {
+    width: 60%;
+  }
+  .founder-image img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 15px;
+  }
+
+  .aboutus-scroll-animation {
+    opacity: 0;
+    transform: translateY(50%);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+}
+  
+  .aboutus-animate {
+    opacity: 1;
+    transform: translateY(0);
+
+    transition: all 1s;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
+  @media screen and (max-width: 992px) {
+    .about-us-content {
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: flex-start;
+      text-align: center;
+    }
+  
+    /* Adjust the order for small screens */
+    .founder-image {
+      order: 1; /* Image first */
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .about-lyna {
+      order: 2; /* 'about-lyna' second */
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .why-bookoub {
+      order: 3; /* 'why-boukoub' third */
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .meet-lyna {
+      text-align: center;
+      margin-left: 0px;
+      width: 100%;
+    }
+  
+    .why-bookoub h2 {
+      width: 100%;
+      text-align: center;
+      margin-left: 0px;
+    }
+  
+    .about-us-intro {
+      width: 100%;
+    }
+  
+    .founder-image img {
+      width: 300px;
+      height: auto;
+    }
+  }

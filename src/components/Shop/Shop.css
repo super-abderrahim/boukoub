@@ -1,0 +1,484 @@
+.shop-page {
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    position: relative; /* Allows wrapping on smaller screens */
+}
+
+
+.sidebar {
+    width: 18%;
+    padding: 20px;
+    box-shadow: 0 3px 21px rgba(0, 0, 0, 0.25);
+}
+
+.sidebar h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    opacity: 0;
+    animation: fadeInright 1s ease forwards;
+    -webkit-animation: fadeInright 1s ease forwards;
+}
+
+@keyframes fadeInright {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+      -webkit-transform: translateX(-20px);
+      -moz-transform: translateX(-20px);
+      -ms-transform: translateX(-20px);
+      -o-transform: translateX(-20px);
+}
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+}
+  }
+
+
+.sidebar li:hover {
+    color: #DF2049;
+    font-weight: 700;
+}
+
+.lang {
+    display: flex;
+    gap: 20px;
+}
+
+/* Hide default radio buttons */
+.sidebar input[type="radio"] {
+    display: none;
+}
+
+/* Style for the radio button container */
+.radio-container label {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    border: none;
+    transition: background-color 0.3s ease;
+    text-align: center; /* Center text inside the label */
+}
+
+/* Style when radio button is checked */
+.radio-container input[type="radio"]:checked + label {
+    background-color: #e63946;
+    color: white;
+}
+
+/* Hover effect for radio button labels */
+
+
+/* Optional: Adding a border for better visibility */
+.radio-container label {
+    border: 2px solid transparent; /* Optional border */
+}
+
+.radio-container input[type="radio"]:checked + label {
+    border: 2px solid #e63946; /* Optional border when checked */
+}
+
+.price-input {
+    background-color: #DF2049;
+}
+
+.price-span {
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    text-align: center;
+}
+
+.main-content {
+    width: 80%;
+    padding: 30px;
+}
+
+.search-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar {
+    width: 50%;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    height: 40px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.search-bar:hover input {
+    width: 90%;
+}
+
+.main-content .search-bar input {
+    width: 90%;
+    padding: 20px;
+    margin-right: 10px;
+    border: none;
+    background-color: transparent;
+    height: 40px;
+}
+
+.main-content .search-bar input:focus {
+    outline: none;
+    border: none;
+}
+
+.search-bar button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.search-bar img {
+    width: 20px;
+    height: 20px;
+}
+
+.breadcrumb {
+    margin-bottom: 20px;
+    margin-left: 40px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product-link{
+    border: 1px solid #ddd;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+    opacity: 0;
+    animation: fadeInUp 1s ease forwards;
+    -webkit-animation: fadeInUp 1s ease forwards;
+}
+
+.product-card:nth-child(odd) {
+    animation-delay: 0.2s; /* Stagger the animation for every odd card */
+}
+
+.product-card:nth-child(even) {
+    animation-delay: 0.3s; /* Stagger the animation for every even card */
+}
+
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+.product-card:hover {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+
+.product-card img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.product-card h5 {
+    text-align: left;
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-container p {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.product-card .price-container .add-button {
+    background-color: #e63946;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 20;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination span {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+        margin: 0px 10px; 
+
+}
+
+.pagination .page-number {
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.pagenumbers {
+    display: flex;
+    align-items: center;
+    width: 20px;
+    font-size: 14px;
+}
+
+.pagination .active {
+    background-color: #DF2049;
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  
+.sidebar.visible {
+    left: 0; /* Move sidebar into view */
+}
+.close-button{
+    display: none;
+}
+.search-container  button{
+    display: none;
+}
+.search-container .search-bar button{
+    display: block;
+}
+/* Responsive Design */
+
+.pagination .disabled {
+    color: rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+  }
+
+ 
+@media (min-width: 768px) and (max-width: 992px) {
+    .main-content {
+        width: 100%;
+    }
+
+    /* Styles specifically for devices between 768px and 992px */
+    .sidebar {
+        width: 80%;
+        padding: 20px;
+        box-shadow: 0 3px 21px rgba(0, 0, 0, 0.25);
+        position: fixed;
+        top: 0;
+        left: -100%; /* Initially hidden */
+        height: 100%;
+        background-color: white; /* Add a background color */
+        transition: left 0.3s ease-in-out; /* Transition for smooth sliding */
+        z-index: 1000;
+ /* Make sure the sidebar is above other content */
+    }
+    .search-container{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+    }
+    .search-container button{
+        display: block;
+        border: none;
+        cursor: pointer;
+    }
+    .search-container button:hover{
+        background-color: transparent;
+    }
+    .close-button{
+        width: 40px;
+        height: 40px;
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 25px;
+    }
+    .search-container button img{
+       width: 40px;
+       height: 40px;
+    }
+    .product-card {
+        width: 100%;
+        height: auto;
+
+    }
+    .product-grid {
+        grid-template-columns: 40% 40%;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .search-bar {
+        width: 80%;
+        margin: 0px;
+    }
+
+    .breadcrumb {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .main-content {
+            width: 100%;    
+        padding: 20px;
+    }
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.1);
+        transition: 0.8s;
+        z-index: 1000;
+        -webkit-transition: 0.8s;
+        -moz-transition: 0.8s;
+        -ms-transition: 0.8s;
+        -o-transition: 0.8s;
+}
+    .sidebar {
+        width: 70%;
+        padding: 20px;
+        box-shadow: 0 3px 21px rgba(0, 0, 0, 0.25);
+        position: fixed;
+        top: 0;
+        left: -100%; /* Initially hidden */
+        height: 100%;
+        background-color: white; /* Add a background color */
+        transition: left 0.3s ease-in-out; /* Transition for smooth sliding */
+        z-index: 1000; /* Make sure the sidebar is above other content */
+    }
+    .search-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .search-container button{
+        display: block;
+        border: none;
+        cursor: pointer;
+        background-color: transparent;
+    }
+    .close-button{
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        width: 30px;
+        height: 30px;
+    }
+    .search-container button:hover{
+        background-color: transparent;
+    }
+    .search-container button img{
+       width: 30px;
+       height: 30px;
+    }
+    .product-card {
+        width: 100%;
+        height: auto;
+
+    }
+    .product-grid {
+        grid-template-columns: 50% 50%;
+        gap: 10px;
+    }
+
+    .search-bar {
+        width: 80%;
+        margin: 0px;
+    }
+
+    .breadcrumb {
+        margin-left: 20px;
+    }
+}

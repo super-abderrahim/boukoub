@@ -1,0 +1,907 @@
+/* src/pages/Home.css */
+
+.home {
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* 50px to rem */
+  background-color: white;
+}
+
+.hero-section {
+  display: flex;
+  padding: 1.875rem; 
+  padding-bottom: 0px;/* 30px to rem */
+  height: 80vh;
+  background-color: white;
+}
+
+.hero-title {
+  font-size: 2rem;
+  color: #333;
+  line-height: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem; /* 20px to rem */
+  margin-top: 1rem; /* 40px to rem */
+}
+
+.highlight {
+  font-size: 2.5rem;
+  color: #e63946;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* Match the color of your design */
+}
+
+.hero-content {
+  width: 50%;
+  padding-top: 50px;
+
+}
+
+.hero-content p {
+  width: 80%;
+  font-size: 1rem; /* 16px to rem */
+  margin-bottom: 1.875rem; /* 30px to rem */
+  font-weight: 600;
+}
+
+.hero-image {
+  width: 50%;
+}
+
+.hero-image img {
+  width: 100%;
+  min-height: 100%;
+}
+
+.shop-now-button {
+  background-color: #e63946;
+  color: white;
+  width: 12.5rem; /* 200px to rem */
+  height: 3.125rem; /* 50px to rem */
+  padding: 0.625rem 1.25rem; /* 10px 20px to rem */
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+
+  font-size: 0.9375rem; /* 15px to rem */
+  font-weight: 600;
+  margin-bottom: 10px; /* 20px to rem */
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+/* General Styling for the Section */
+.join-us-section {
+  display: flex;
+  width: 100vw;
+  min-height: 60vh;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px 20px;
+  /* background-color: #f9f9f9;
+   */
+   background: linear-gradient(145deg, #f7f7f7, #eaeaea);
+  border-radius: 12px;
+}
+
+.join-us-section h2 {
+
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: #333;
+  text-transform:uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.452);
+}
+
+.collaboration-instargam{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/* Collaboration Section */
+.collaboration-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.collaboration-section h4 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.452);
+
+}
+
+
+.collaboration-logos {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  overflow: hidden;
+  width: 500px;
+  white-space: nowrap;
+}
+
+.collaboration-logos:hover .collaboration-logos-wrapper {
+  animation-play-state: paused;
+}
+.collaboration-logos-wrapper {
+  display: inline-block;
+  animation: slide 10s linear infinite;
+  -webkit-animation: slide 5s linear infinite;
+  gap: 25px;
+
+}
+
+.collaboration-logos img {
+  height: 100px;
+  width: auto;
+  cursor: pointer;
+  margin: 0px 20px ;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.226);
+  transition: filter 0.3s ease;
+}
+
+.collaboration-logos img:hover {
+  filter: grayscale(10%);
+  -webkit-filter: grayscale(10%);
+}
+
+.collaborate-btn {
+  background-color: #ff3b5c;
+  color: white;
+  font-weight: 600;
+
+  padding: 12px 15px;
+  border-radius: 50px;
+  font-size: 1.3rem;
+  width: 200px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.collaborate-btn img {
+  height: 24px;
+  width: 24px;
+  /* rotate: -20deg; */
+}
+
+.collaborate-btn:hover {
+  background-color: #ff616d;
+
+}
+
+
+/* Instagram Group */
+.instagram-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 40%;
+  height: 400px;
+  background-image: url('../../assets/book_group.jfif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.4); /* A semi-transparent black overlay */
+  background-blend-mode:hard-light; /* Blend the color and image */
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+
+
+.instagram-group h3 {
+  color: white;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+}
+
+.instagram-group .group-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.join-btn {
+  background-color: #ff3b5c;
+  color: white;
+  padding: 12px 15px;
+  border-radius: 50px;
+  min-width: 150px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.join-btn:hover {
+  background-color: #ff616d;
+}
+
+.join-btn img {
+  height: 24px;
+  width: 24px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+.scroll-animation {
+  opacity: 0;
+  filter: blur(5%);
+  transform: translateX(-100%);
+  transition: opacity 1s, filter 1s, transform 1s;
+  -webkit-filter: blur(5%);
+}
+
+.animate {
+  opacity: 1;
+  filter: blur(0%);
+  transform: translateX(0%);
+}
+
+.review-item:nth-child(2){
+    transition-delay: 0.2s;
+}
+.review-item:nth-child(3){
+  transition-delay: 0.4s;
+}
+
+/* 
+
+.best-selling-books-section {
+  padding:  0px 1.875rem; 
+  text-align: start;
+  background-color: white;
+  position: relative;
+}
+
+.best-selling-books-section h2 span {
+  display: inline-block;
+  width: 0.3125rem; 
+  height: 5rem; 
+  background-color: #e63946;
+  margin-right: 0.9375rem; 
+  vertical-align: middle;
+}
+
+.best-selling-books-section h2 {
+  margin-bottom: 1.25rem; 
+}
+.slider-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  gap: 10px;
+}
+
+.slider-slide {
+  min-width: 20%; 
+  transition: transform 0.3s ease-in-out;
+}
+
+.book-item {
+  width: 80%;
+  height: 100%;
+  cursor: pointer;
+  object-fit: cover;
+  border-radius: 1px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+}
+
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius:2px;
+  width: auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0,0.5);
+  -webkit-border-radius:2px;
+  -moz-border-radius:2px;
+  -ms-border-radius:2px;
+  -o-border-radius:2px;
+}
+.slider-arrow img {
+  width: 20px;
+  height: 20px;
+}
+
+.prev-arrow {
+  left: -20px;
+}
+
+.next-arrow {
+  right: -20px;
+} */
+
+
+.books-of-the-month-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.books-of-the-month-section h2 {
+  margin-bottom: 40px;
+  font-size:1.5rem;
+  text-align: start;
+  text-transform: uppercase;
+}
+
+.books-of-the-month-section h2 span {
+  display: inline-block;
+  width: 0.3125rem; 
+  height: 5rem; 
+  background-color: #e63946;
+  margin-right: 0.9375rem; 
+  vertical-align: middle;
+}
+
+
+.swiper-slide {
+  border-radius: 1px;
+  box-shadow: 0 0px 8px rgba(0,0,0,0.2);
+  height: 300px ;
+  margin-top: 5px;
+  padding: 5px;
+  
+}
+
+.swiper-wrapper {
+  cursor: grab;
+  min-height: 50vh;
+}
+
+.swiper-slide  img {
+  width: 100%;
+  height: 70%; /* Adjust if needed */
+  object-fit: cover /* Adjust to fit within the card */
+ /* Maintain aspect ratio */
+}
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.title-price-slider {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
+.title-price-slider h5 {
+  margin: 0;
+  font-size: 14px; /* Adjust font size if needed */
+}
+
+.slider-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.slider-arrow {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: var(--swiper-pagination-bottom, 8px);
+  top: var(--swiper-pagination-top, auto);
+  left: 0;
+  width: 100%;
+  bottom: 0px;
+}
+
+.title-price-slider {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-price-slider h5 {
+  text-align: start;
+}
+
+
+
+
+
+
+
+
+.reviews-section {
+  display: flex;
+  background: linear-gradient(145deg, #f7f7f78f, #eaeaea88);
+  padding: 2.5rem; /* 40px to rem */
+  gap: 3.125rem; /* 50px to rem */
+}
+.reviews-section .image-section  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviews-section .image-section img {
+  width: 500px; /* 450px to rem */
+  height: 500px; /* 450px to rem */
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.rev {
+  width: 50vw;
+}
+
+.rev h1 {
+  margin-bottom: 40px;
+  font-size:1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.rev h1 span {
+  display: block;
+  width: 3.75rem; /* 60px to rem */
+  height: 0.1875rem; /* 3px to rem */
+  background-color: #e63946;
+  margin: 0.625rem auto 0; /* 10px to rem */
+}
+
+.review-item-container {
+  margin-top: 1.5625rem; /* 25px to rem */
+  display: flex;
+  gap: 1.25rem; /* 20px to rem */
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+}
+
+.review-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;   /* 10px to rem */
+  gap: 1.25rem; /* 20px to rem */
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  width: 100%;
+  height: auto;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.review-item img {
+  width: 3.75rem;
+  /*60pxtorem*/height: 3.75rem;
+  /*60pxtorem*/border-radius: 50%;
+  -webkt-border-radius: 5;
+  -moz-border-radius: 5;
+  -ms-border-radius: 5;
+  -o-border-radius: 5;
+}
+
+.review-item p {
+  text-align: start;
+}
+
+/* Swiper Styles */
+
+
+/* Media Queries */
+
+/* max-width: 992px */
+@media (max-width: 992px) {
+  .hero-section {
+      flex-direction: column;
+
+      padding: 0.9375rem;
+
+  height: auto;
+  /* /* 15px to rem */
+  }
+
+  .hero-content {
+    padding-top: 0px;
+      width: 100%;
+  }
+
+  .hero-title {
+      font-size: 1.875rem; /* 30px to rem */
+      line-height: 2rem; /* 32px to rem */
+      margin-bottom: 0.9375rem; /* 15px to rem */
+  }
+
+  .highlight {
+      font-size: 2.25rem; /* 36px to rem */
+  }
+
+  .hero-image {
+      width: 100%;
+  }
+
+  .shop-now-button {
+      width: 60%;
+      height: 3.125rem; /* 50px to rem */
+  }
+
+
+
+  
+
+  .reviews-section {
+      flex-direction: column;
+      padding: 1.25rem; /* 20px to rem */
+  }
+
+  .rev {
+      width: 100%;
+  }
+
+  .reviews-section .image-section img {
+      width: 90%;
+      height: auto;
+  }
+
+
+
+
+
+
+
+
+ 
+  .books-of-the-month-section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+
+  .swiper-slide {
+    width: 200px !important;
+    height: 300px !important;
+    margin-right: 15px !important;
+  }
+  .swiper-wrapper {
+    min-height: auto;
+    padding: 10px;
+    padding-left: 0px;
+  }
+  .swiper-button-next {
+   display: none;
+}
+.swiper-button-prev {
+  display: none;
+}
+  .title-price-slider {
+    padding: 5px;
+  }
+
+  .title-price-slider h5 {
+    font-size: 12px;
+  }
+  
+
+
+.swiper-slide  img {
+  width: 100%;
+  height: 70%; /* Adjust if needed */
+  object-fit: cover /* Adjust to fit within the card */
+ /* Maintain aspect ratio */
+}
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+
+
+
+.slider-controls {
+  display: none;
+}
+
+.slider-arrow {
+
+  display: none;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+display: none;
+}
+
+}
+
+/* max-width: 768px */
+@media (max-width: 768px) {
+  .join-us-section {
+    padding: 20px 10px;
+  }
+
+  .instagram-group {
+    width: 100%;
+    order: 1;
+  }
+  .collaboration-section{
+    width: 100%;
+    order: 2;
+    margin-top: 30px;
+}
+
+  .collaboration-instargam {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+  .collaborate-btn, .join-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+ 
+
+
+
+
+  
+  .hero-title {
+      font-size: 1.5rem; /* 24px to rem */
+  }
+
+  .highlight {
+      font-size: 2rem; /* 32px to rem */
+  }
+
+  .hero-content p {
+      width: 90%;
+      font-size: 0.9375rem; /* 15px to rem */
+  }
+
+  .shop-now-button {
+      width: 60%;
+      height: 2.8125rem; /* 45px to rem */
+      font-size: 0.875rem; /* 14px to rem */
+  }
+
+
+  
+
+  .books-of-the-month-section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+
+  .swiper-slide {
+    width: 130px !important;
+    height: 200px !important;
+    margin-right: 15px !important;
+  }
+  .swiper-wrapper {
+    min-height: auto;
+    padding: 10px;
+    padding-left: 0px;
+  }
+  .swiper-button-next {
+   display: none;
+}
+.swiper-button-prev {
+  display: none;
+}
+  .title-price-slider {
+    padding: 5px;
+  }
+
+  .title-price-slider h5 {
+    font-size: 12px;
+  }
+  
+
+
+.swiper-slide  img {
+  width: 100%;
+  height: 70%; /* Adjust if needed */
+  object-fit: cover /* Adjust to fit within the card */
+ /* Maintain aspect ratio */
+}
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+
+
+
+.slider-controls {
+  display: none;
+}
+
+.slider-arrow {
+
+  display: none;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+display: none;
+}
+
+
+.review-item p {
+  text-align: center;
+}
+
+}
+/* max-width: 480px */
+@media (max-width: 480px) {
+  .hero-title {
+      font-size: 1.25rem; /* 20px to rem */
+  }
+
+  .highlight {
+      font-size: 1.75rem; /* 28px to rem */
+  }
+
+  .hero-content p {
+      width: 100%;
+      font-size: 0.875rem; /* 14px to rem */
+  }
+
+  .shop-now-button {
+      width: 70%;
+      height: 2.5rem; /* 40px to rem */
+      font-size: 0.875rem; /* 14px to rem */
+  }
+
+
+  .reviews-section {
+      padding: 1.25rem; /* 20px to rem */
+  }
+
+  .review-item {
+      flex-direction: column;
+      padding: 0.625rem; /* 10px to rem */
+      height: auto;
+  }
+
+  
+
+
+  .books-of-the-month-section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+
+  .swiper-slide {
+    width: 130px !important;
+    height: 200px !important;
+    margin-right: 15px !important;
+  }
+  .swiper-wrapper {
+    min-height: auto;
+    padding: 10px;
+    padding-left: 0px;
+  }
+  .swiper-button-next {
+   display: none;
+}
+.swiper-button-prev {
+  display: none;
+}
+  .title-price-slider {
+    padding: 5px;
+  }
+
+  .title-price-slider h5 {
+    font-size: 11px;
+}
+  
+
+
+.swiper-slide  img {
+  width: 100%;
+  height: 70%; /* Adjust if needed */
+  object-fit: cover /* Adjust to fit within the card */
+ /* Maintain aspect ratio */
+}
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+
+
+
+.slider-controls {
+  display: none;
+}
+
+.slider-arrow {
+
+  display: none;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+display: none;
+}
+
+
+
+}

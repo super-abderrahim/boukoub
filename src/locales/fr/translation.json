@@ -1,0 +1,132 @@
+
+{
+  "home": {
+    "welcomeMessage": "Bienvenue à",
+    "bookoub": "Bookoub",
+    "description": "Votre prochaine grande lecture est à un clic. Des titres tendance aux trésors cachés, nous avons les livres que vous allez adorer. Commencez à explorer et trouvez votre prochain coup de cœur aujourd'hui.",
+    "shopNow": "Acheter Maintenant",
+    "heroImageAlt": "Affichage des Livres"
+  },
+  "joinUs": {
+    "title": "Rejoignez Notre Communauté",
+    "collaboration": "Collaboration",
+    "decorily": "Decorily",
+    "roomToRead": "Room to Read",
+    "legend": "Legend",
+    "express": "Express",
+    "collaborate": "Collaborer",
+    "sendIcon": "Icône d'Envoi",
+    "instagramGroup": "Groupe Instagram",
+    "join": "Rejoindre",
+    "instagramIcon": "Icône Instagram"
+  },
+  "booksOfTheMonth": {
+    "title": "Livres Du Mois"
+  },
+  "reviews": {
+    "imageAlt": "Avis",
+    "title": "AVIS",
+    "ins1": {
+      "alt": "Review Image 1",
+      "text": "merci beaucoup pour le professionnalisme ta3kom , j’ai reçu mes livres en meme pas 24h , meilleure vendeuse en ligne tlait biha had 3 dernière années tres sérieuse fel khadma et respectueuse bazef , et les prix ta3kom mlah je suis tres tres satisfait mea la réduction et la livraison gratuite et surtout le service bravo 10/10 vous m’avez meme aider à choisir de très bon titres, bon courage et bonne continuation et je vous recontacterais pour d’autre livres inchalah"
+    },
+    "ins2": {
+      "alt": "Review Image 2",
+      "text": "Hey.. I couldn’t be happier and more grateful! The books are amazing, the quality! The prices ! The delivery service so understanding though it took me some time to answer it.. The gift Gil with the note on it... You definitely won a faithful client! The next list will be longer May God bless you. "   },
+    "ins3": {
+      "alt": "Review Image 3",
+      "text": "Hello there! I hope that u doing well.…so where do I start ' @first of all thanks a lottt for your service without forgetting Tact in speech , secondly the book quality is adorable Literally I meant it I don’t know u but keep going in this business finally I’m over the moon and break a leg ..once again thank very much"
+    }
+  },
+  "bookPage": {
+    "loading": "Chargement...",
+    "descriptionUnavailable": "Description non disponible pour ce livre.",
+    "category": "Catégorie",
+    "price": "Prix",
+    "total": "Total",
+    "addToCart": "AJOUTER AU PANIER",
+    "buyNow": "ACHETER MAINTENANT"
+  },
+  "contactPage": {
+    "contactUs": "Contactez Nous",
+    "Us": "Nous",
+    "message": "Nous aimerions avoir de vos nouvelles ! Que vous ayez une question, des commentaires, ou besoin d'aide, n'hésitez pas à nous contacter.",
+    "info": "INFOS",
+    "email": "EMAIL",
+    "emaillabel": "Email ...",
+    "Email": "boukoubstore@gmail.com",
+    "link": "LINKS",
+    "sendMessage": "ENVOYER UN MESSAGE",
+    "name": "Nom",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "emailPlaceholder": "Email",
+    "subject": "SUJET",
+    "subjectlabel": "Sujet ...",
+    "messagePlaceholder": "Message ...",
+    "send": "ENVOYER",
+    "sentSuccessfully": "Envoyé avec succès !!"
+  },
+  "aboutUs": {
+    "welcomeMessage": "Bienvenue chez Bookoub Store, où l'amour des livres rencontre la facilité des achats en ligne ! Fondé par une jeune femme algérienne passionnée",
+    "meetLyna": "Rencontrez Lyna",
+    "Founder": " la Fondatrice",
+    "lynaDescription": "Lyna, une jeune femme algérienne de 21 ans avec une passion de longue date pour les livres, a décidé en 2023 de transformer son amour pour la littérature en entreprise. En créant Bookoub Store à partir de zéro, elle visait à rendre la lecture plus accessible à tout le monde en Algérie. Ce qui a commencé comme une petite aventure s'est maintenant épanoui en une librairie en ligne florissante, connectant les lecteurs à travers le pays avec leurs titres préférés. Avec sa détermination et son esprit entrepreneurial, Lyna a construit une communauté qui allie commodité, qualité et passion partagée pour les livres.",
+    "whyBookoub": "Pourquoi ,",
+    "bookoub": "Bookoub ? ",
+    "whyBookoubDescription": "Que vous cherchiez le dernier best-seller ou les meilleurs livres de développement personnel, notre plateforme conviviale facilite l'exploration, la découverte et l'achat de votre prochaine grande lecture. Nous sommes fiers de notre service client exceptionnel et de notre véritable passion pour les livres. Ce qui nous distingue, c'est notre engagement à faire en sorte que chaque client se sente valorisé, et notre objectif est de connecter les Algériens au monde de la littérature avec commodité et soin."
+  },
+  "shopPage": {
+      "shopByCategory": "Acheter par Catégorie",
+      "all": "Tout",
+      "type": "Type",
+      "language": "Langue",
+      "price": "Prix",
+      "priceRange": "Plage de Prix",
+      "searchPlaceholder": "Rechercher ...",
+      "search": "Rechercher",
+      "filter": "Filtrer",
+      "breadcrumb": "Catégorie > Type",
+      "addToCart": "AJOUTER",
+      "pagePrevious": "Préc",
+      "pageNext": "Suiv",
+      "outOfStock": "RUPTURE DE STOCK"
+    },
+    "footer": {
+      "companyName": "boukoub",
+      "home": "accueil",
+      "shop": "boutique",
+      "aboutUs": "à propos de nous",
+      "contact": "contact",
+      "emailCopied": "copié !",
+      "copyright": "© 2024 Bookoub.store - Tous droits réservés"
+    },
+    "cart": {
+      "List": "Votre liste de produits",
+      "items": "articles",
+      "Shipping": "Livraison",
+      "Subtotal": "Sous-total",
+      "Total": "Total",
+      "DeliveryInformation": "Informations de livraison",
+      "FamilyName": "Nom de famille",
+      "FirstName": "Prénom",
+      "PhoneNumber": "Numéro de téléphone",
+      "DeliveryToHome": "Livraison à domicile",
+      "DeliveryToZR": "Livraison au bureau ZR Express",
+      "Wilaya": "Wilaya",
+      "City": "Commune",
+      "Address": "Adresse",
+      "BUY": "ACHETER",
+      "SENTSUCCESSFULLY!!": "ENVOYÉ AVEC SUCCÈS!!",
+      "BacktoShop": "Retour à la boutique",
+      "OrderSummary": "Récapitulatif de la commande",
+      "Enterallinfos": "Veuillez entrer toutes les informations et les langues des livres !!",
+      "Yourcartisempty": "Votre panier est vide..."
+    }
+    , "navbar": {
+      "home": "Accueil",
+      "shop": "Boutique",
+      "aboutUs": "À Propos",
+      "contact": "Contact"
+    }
+}

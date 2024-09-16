@@ -321,18 +321,7 @@ const Cart = () => {
                             onChange={handleInputChange}
                             className="input-field"
                         />
-                         <select
-                        name="deliveryMethod"
-                        value={clientInfo.deliveryMethod}
-                        onChange={handleInputChange}
-                        className="input-field"
-                    >
-                        <option value="office">{t('cart.DeliveryToZR')}</option>
-                        {clientInfo.wilaya && wilayas.find(w => w.name === clientInfo.wilaya)?.home !== null && (
-                            <option value="home">{t('cart.DeliveryToHome')}</option>
-                        )}
-                    </select>
-      
+
                         <select
                             name="wilaya"
                             value={clientInfo.wilaya}
@@ -353,6 +342,19 @@ const Cart = () => {
                             className="input-field"
                         />
                  
+                         <select
+                        name="deliveryMethod"
+                        value={clientInfo.deliveryMethod}
+                        onChange={handleInputChange}
+                        className="input-field"
+                    >
+                        <option value="office">{t('cart.DeliveryToZR')}</option>
+                        {clientInfo.wilaya && wilayas.find(w => w.name === clientInfo.wilaya)?.home !== null && (
+                            <option value="home">{t('cart.DeliveryToHome')}</option>
+                        )}
+                    </select>
+      
+                        
                         
                         {clientInfo.deliveryMethod === 'home' && (
                              <div className="address-container">

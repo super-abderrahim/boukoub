@@ -7,11 +7,10 @@
 .footer-container {
     display: flex;
     position: relative;
-
     align-items: center;
     width: 100%;
     flex-direction: column; /* Allows wrapping on smaller screens */
-    gap: 5px;
+    gap: 0px;
     padding: 20px;
 }
 
@@ -20,14 +19,22 @@
     display: flex;
     gap: 30px;
     justify-content: center;
-    margin: 0 15px;
-    min-width: 200px; /* Minimum width to prevent collapsing on small screens */
+    margin: 0px 15px;
+    min-width: 200px;
+    align-items: center;
+}
+
+.footer-section a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
 
 .footer-section p img {
     width: 20px;
     height: 20px;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 

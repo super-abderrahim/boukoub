@@ -27,7 +27,6 @@ const Footer = () => {
     }
   };
 
-  // Fallback for older browsers
   const fallbackCopyText = (text) => {
     const textArea = document.createElement("textarea");
     textArea.value = text;
@@ -61,33 +60,23 @@ const Footer = () => {
           {/* Email icon with copy functionality */}
           <p onClick={() => copyToClipboard(emailtext)}>
             <img src={email} alt="Email" />
-            <span></span> {/* Optional: display the email */}
+             {/* Optional: display the email */}
           </p>
 
           {/* TikTok */}
-          <p>
+          <a href="https://www.tiktok.com/@bookoub.store?_t=8p4KiVxwCr0&_r=1" target="_blank" rel="noopener noreferrer">
             <img src={tiktok} alt="TikTok" />
-            <a href="https://www.tiktok.com/@bookoub.store?_t=8p4KiVxwCr0&_r=1" 
-              target="_blank" 
-              rel="noopener noreferrer"></a>
-          </p>
+          </a>
 
           {/* Instagram */}
-          <p>
+          <a href="https://www.instagram.com/bookoub.store?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
             <img src={instagram} alt="Instagram" />
-            <a href="https://www.instagram.com/bookoub.store?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
-              target="_blank" 
-              rel="noopener noreferrer"></a>
-          </p>
+          </a>
 
           {/* Facebook */}
-          <p>
+          <a href="https://www.facebook.com/profile.php?id=100093635761337" target="_blank" rel="noopener noreferrer">
             <img src={facebook} alt="Facebook" />
-            <a href="https://www.facebook.com/profile.php?id=100093635761337" 
-              target="_blank" 
-              rel="noopener noreferrer"></a>
-          </p>
-
+          </a>
         </div>
 
         {copied && <p className="copy">{t('footer.emailCopied')}</p>}

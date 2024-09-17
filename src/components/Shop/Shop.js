@@ -264,29 +264,26 @@ const ShopPage = () => {
 </div>
 
 
-    <div className="pagination">
-      <span
-        onClick={() => handlePageChange(currentPage - 1)}
-        className={`pagination-button ${currentPage === 1 ? 'disabled' : ''}`}
-      >
-        {t('shopPage.pagePrevious')}
-      </span>
-      {[...Array(totalPages).keys()].map((number) => (
-        <span
-          key={number + 1}
-          onClick={() => handlePageChange(number + 1)}
-          className={`pagination-number ${currentPage === number + 1 ? 'active' : ''}`}
-        >
-          {number + 1}
-        </span>
-      ))}
-      <span
-        onClick={() => handlePageChange(currentPage + 1)}
-        className={`pagination-button ${currentPage === totalPages ? 'disabled' : ''}`}
-      >
-        {t('shopPage.pageNext')}
-      </span>
-    </div>
+        <div className="pagination">
+          <span
+            onClick={() => handlePageChange(currentPage - 1)}
+            className={`pagination-button ${currentPage === 1 ? 'disabled' : ''}`}
+          >
+            {t('shopPage.pagePrevious')}
+          </span>
+
+          {/* Display current page and total pages in the "1/8" format */}
+          <span className="page-info">
+            {`${currentPage}/${totalPages}`}
+          </span>
+
+          <span
+            onClick={() => handlePageChange(currentPage + 1)}
+            className={`pagination-button ${currentPage === totalPages ? 'disabled' : ''}`}
+          >
+            {t('shopPage.pageNext')}
+          </span>
+        </div>
   </main>
 </div>
 
